@@ -10,7 +10,6 @@ body {
 	font-size: 12px;
 	line-height: 1.5em; 
 	background-color: #1d1c1b;
-	background-image: url(images/tooplate_body.jpg);
 	background-repeat: repeat-x;
 	background-position: top
 }
@@ -86,7 +85,7 @@ em { color: #cf560d }
 	color:#cf560d; 
 	margin:0 0 10px; 
 	padding: 3px 0 3px 25px; 
-	background: transparent url(images/tooplate_list.jpg) scroll 0 8px  no-repeat; 
+
 }
 
 .tooplate_list li a { 
@@ -101,7 +100,7 @@ em { color: #cf560d }
 	width: 100%;
 	height: 251px;
 	margin-bottom: 10px;
-	background: url(images/tooplate_header.jpg) no-repeat top center
+
 }
 
 #tooplate_header {
@@ -109,7 +108,7 @@ em { color: #cf560d }
 	height: 251px;
 	padding: 0 30px;
 	margin: 0 auto;
-	background: url(images/tooplate_header.jpg) no-repeat top center
+
 }
 
 /* menu */
@@ -149,7 +148,7 @@ em { color: #cf560d }
 
 #tooplate_menu ul li a:hover, #tooplate_menu ul .current {
 	color: #ffa400;
-	background: url(images/tooplate_menu_hover.png) bottom center no-repeat;
+
 }
 /* end of menu */
 
@@ -169,7 +168,7 @@ em { color: #cf560d }
 	height: 54px; 
 	color: #F60; 
 	text-indent: -10000px; 
-	background: url(images/tooplate_logo.png) no-repeat; 
+
 }
 
 #tooplate_main_wrapper {
@@ -187,13 +186,13 @@ em { color: #cf560d }
 #tooplate_top {
 	width: 940px;
 	height: 20px;
-	background: url(images/tooplate_main_top.png) no-repeat
+
 }
 
 #tooplate_bottom {
 	width: 940px;
 	height: 20px;
-	background: url(images/tooplate_main_bottom.png) no-repeat
+
 }
 
 #tooplate_content_wrapper {
@@ -204,14 +203,13 @@ em { color: #cf560d }
 #tooplate_content {
 	width: 560px;
 	padding: 10px 20px 20px 40px;
-	background: url(images/tooplate_content_body.png) repeat-y
+
 }
 
 #tc_top {
 	width: 620px;
 	height: 20px;
-	background: url(images/tooplate_content_top.jpg) no-repeat
-}
+
 #tc_bottom {
 	width: 620px;
 	height: 20px;
@@ -304,7 +302,7 @@ margin-bottom: 30px;
 
 .comments li .commentbox1 { 
 	border: 1px solid #000;  
-	background: #000000; 
+	background-color: white; 
 }
 
 .comments li .commentbox2 { 
@@ -429,15 +427,6 @@ margin-bottom: 30px;
 
 .content_box { margin-bottom: 40px }
 
-/* gallery */
-#gallery { clear: both; }
-.gallery_box { padding: 0 0 30px 0; margin: 0 0 30px 0; border-bottom: 1px dashed #000; }
-.last_gallery_box { padding: 0; margin: 0; border: none; }
-.gallery_box a.gallery_img { display: block; float: left; width: 210px; height: 160px; }
-.gallery_box .right { float: right; width: 300px; }
-	 
-/* end of gallery */
-
 .service_box { clear: both; margin-bottom: 50px; }
 .service_box img { float: left; width: 48px; height: 48px; }
 .service_box .sb_right { float: right; width: 480px; }
@@ -500,54 +489,6 @@ margin-bottom: 30px;
 	margin: 0; 
 	padding: 0; 
 	border: none; 
-}
-
-#contact_form { 
-	padding: 0; 
-	width: 400px 
-}
-
-#contact_form form { 
-	margin: 0px; 
-	padding: 0px;
-}
-
-#contact_form form .input_field { 
-	width: 270px; 
-	color: #333; 
-	padding: 5px; 
-	border: 1px solid #2b271d;  
-	background: #000; 
-	font-family: Tahoma, Geneva, sans-serif;
-	font-size: 12px;
-	margin-top: 5px;
-}
-
-#contact_form form label { 
-	display: block; 
-	width: 100px; 
-	margin-right: 10px; 
-	font-size: 12px; 
-}
-
-#contact_form form textarea { 
-	width: 388px; 
-	height: 200px; 
-	padding: 5px; 
-	color: #333; 
-	border: 1px solid #2b271d;  
-	background: #000; 
-	font-family: Tahoma, Geneva, sans-serif;
-	font-size: 12px;
-	margin-top: 5px;
-}
-
-#contact_form form .submit_btn {
-	margin: 10px 0px;
-	padding: 5px 14px;
-	background-color: #000;
-	color: #2b271d;
-	border: 1px solid #2b271d;
 }
 
 #tooplate_footer {
