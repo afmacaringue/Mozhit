@@ -54,6 +54,20 @@ button:hover {
 	background-color: rgb(150, 0, 131, 0.5);
 
 }
+#pesquisa {
+	padding: 9px 25px;
+	background-color: rgba(160, 93, 126, 0.5);
+	border: none;
+	border-radius: 50px;
+	cursor: text;
+	transition: all a.3s ease 0s;
+	color: black;
+}
+input[type=text] {
+      width: 30%;
+      -webkit-transition: width 0.15s ease-in-out;
+      transition: width 0.15s ease-in-out;
+   }
 #musicas {
 	padding-top: 20px;
 	padding-left: 50px;
@@ -64,9 +78,6 @@ button:hover {
 	justify-content: space-between;
 	align-items: center;
 	padding: 30px 10%;
-
-	
-
 }
 #musicas .ms h1{
 	text-align: center;
