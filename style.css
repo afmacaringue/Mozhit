@@ -92,31 +92,32 @@ input[type=text] {
 	margin-top: 20px;
 	margin-left: 100px;
 	margin-right: 100px;
-	border:1px solid blue;
-}
+	/*border:1px solid blue;*/
 
-
-.musicas .categoria{
-	display: flex;
-	flex: 50%;
-	
-	border:1px solid blue;
 }
 .musicas .ms{
 	display: flex;
 	flex-direction: column;
 	flex: 50%;
-	border:1px solid blue;
+	/*border:1px solid blue;*/
 	align-items: center;
-
-
 }
 
 .musicas img{
 	width: 250px;
 	height: 250px;
 }
+.musicas .categoria{
+	flex: 50%;
+	/*border:1px solid blue;*/
+}
+.musicas .categoria ul li a{
 
+	display: flex;
+	margin: 10px;
+	color: black;
+	justify-content: space-between;
+}
 footer{
 	display: flex;
 	padding: 20px 10%;
